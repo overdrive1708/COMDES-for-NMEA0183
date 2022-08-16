@@ -120,4 +120,12 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>COMDES-for-NMEA0183</value>
   </data>
+  <data name="MessageFatalError" xml:space="preserve">
+    <value>致命的なエラーが発生しました。
+このアプリケーションを終了します｡
+==========詳細情報==========</value>
+  </data>
+  <data name="ImportantNotice" xml:space="preserve">
+    <value>重要なお知らせ</value>
+  </data>
 </root>

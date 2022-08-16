@@ -100,4 +100,12 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>COMDES-for-NMEA0183</value>
   </data>
+  <data name="MessageFatalError" xml:space="preserve">
+    <value>A fatal error has occurred.
+Termination this application.
+========== more information: ==========</value>
+  </data>
+  <data name="ImportantNotice" xml:space="preserve">
+    <value>Important notice</value>
+  </data>
 </root>

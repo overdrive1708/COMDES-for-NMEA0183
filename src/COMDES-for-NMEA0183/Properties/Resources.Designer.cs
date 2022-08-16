@@ -68,5 +68,25 @@ namespace COMDES_for_NMEA0183.Properties {
                 return ResourceManager.GetString("ApplicationTitle", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Important notice に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ImportantNotice {
+            get {
+                return ResourceManager.GetString("ImportantNotice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   A fatal error has occurred.
+        ///Termination this application.
+        ///========== more information: ========== に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string MessageFatalError {
+            get {
+                return ResourceManager.GetString("MessageFatalError", resourceCulture);
+            }
+        }
     }
 }
