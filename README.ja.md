@@ -36,6 +36,8 @@
 
 ## 使用しているライブラリ
 - Prism.Unity(Version.8.1.97)
+- ReactiveProperty(Version.8.1.2)
+- LivetCask.Behaviors(Version.4.0.2)
 - CommandLineParser(Version.2.9.1)
 
 ## ライセンス
