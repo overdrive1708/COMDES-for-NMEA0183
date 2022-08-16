@@ -9,7 +9,7 @@
     xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
     xmlns:prism="http://prismlibrary.com/"
     xmlns:viewmodels="clr-namespace:COMDES_for_NMEA0183.ViewModels"
-    Title="{Binding Title.Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+    Title="{Binding Title.Value, Mode=OneWay}"
     Width="1280"
     Height="800"
     d:DataContext="{d:DesignInstance Type=viewmodels:MainWindowViewModel,
