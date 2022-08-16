@@ -35,6 +35,11 @@
 
 ## Libraries used
 - Prism.Unity(Version.8.1.97)
+- MaterialDesignColors(Version.2.0.6)
+- MaterialDesignThemes(Version.4.5.0)
+- MaterialDesignThemes.MahApps(Version.0.2.2)
+- MahApps.Metro(Version.2.4.9)
+- MahApps.Metro.IconPacks(Version.4.11.0)
 - ReactiveProperty(Version.8.1.2)
 - LivetCask.Behaviors(Version.4.0.2)
 - CommandLineParser(Version.2.9.1)
