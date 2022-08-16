@@ -5,7 +5,8 @@
 </h1>
 
 <h2 align="center">
-    COMmunication software DEvelopment support System for NMEA0183
+    COMmunication software DEvelopment support System for NMEA0183<br>
+    NMEA0183関連ソフトウェア開発支援システム
 </h2>
 
 <div align="center">
@@ -16,24 +17,24 @@
     <img alt="release" src="https://img.shields.io/github/release/overdrive1708/COMDES-for-NMEA0183?style=plastic&logo=github">
 </div>
 
-## Feature list
-- Transmit NMEA0183 sentence (to be implemented)
-- Receive NMEA0183 sentence (to be implemented)
-- Encode/Decode NMEA0183 sentence (to be implemented)
-- Recording and playback of transmit and receive (to be implemented)
+## 機能一覧
+- NMEA0183センテンスの送信 (実装予定)
+- NMEA0183センテンスの受信 (実装予定)
+- NMEA0183センテンスのエンコード/デコード (実装予定)
+- 送受信の記録と再生 (実装予定)
 
-## Support NMEA sentence list
+## サポートするNMEAセンテンス一覧
 - RMC
 
-## Requirements
-- [.NET Desktop Runtime 6.0.*](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+## 必要要件
+- [.NET デスクトップ ランタイム 6.0.*](https://dotnet.microsoft.com/ja-jp/download/dotnet/6.0)
 
-## Development environment
+## 開発環境
 - Microsoft Visual Studio Community 2022
 - .NET 6.0.400
 - Prism Template Pack(Version.2.4.1)
 
-## Libraries used
+## 使用しているライブラリ
 - Prism.Unity(Version.8.1.97)
 - MaterialDesignColors(Version.2.0.6)
 - MaterialDesignThemes(Version.4.5.0)
@@ -44,12 +45,12 @@
 - LivetCask.Behaviors(Version.4.0.2)
 - CommandLineParser(Version.2.9.1)
 
-## License
-This project is licensed under the MIT License.  
-See [LICENSE](LICENSE) for details.
+## ライセンス
+このプロジェクトはMITライセンスです。  
+詳細は [LICENSE](LICENSE) を参照してください。
 
-## Author
+## 作者
 [overdrive1708](https://github.com/overdrive1708)
 
-## Changelog
-See [CHANGELOG](CHANGELOG.md).
+## 変更履歴
+[CHANGELOG](CHANGELOG.md)を参照してください｡
