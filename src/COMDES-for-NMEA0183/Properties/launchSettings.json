@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "COMDES-for-NMEA0183": {
+      "commandName": "Project"
+    },
+    "Run-en-US": {
+      "commandName": "Project",
+      "commandLineArgs": "--cultureinfo=en-US"
+    },
+    "Run-ja-JP": {
+      "commandName": "Project",
+      "commandLineArgs": "--cultureinfo=ja-JP"
+    }
+  }
+}

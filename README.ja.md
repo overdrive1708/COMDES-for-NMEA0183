@@ -36,6 +36,7 @@
 
 ## 使用しているライブラリ
 - Prism.Unity(Version.8.1.97)
+- CommandLineParser(Version.2.9.1)
 
 ## ライセンス
 このプロジェクトはMITライセンスです。  

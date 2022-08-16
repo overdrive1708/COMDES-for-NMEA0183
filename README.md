@@ -35,6 +35,7 @@
 
 ## Libraries used
 - Prism.Unity(Version.8.1.97)
+- CommandLineParser(Version.2.9.1)
 
 ## License
 This project is licensed under the MIT License.  

@@ -13,7 +13,7 @@ namespace COMDES_for_NMEA0183.ViewModels
         /// <summary>
         /// タイトル
         /// </summary>
-        private string _title = "Prism Application";
+        private string _title = Properties.Resources.ApplicationTitle;
         public string Title
         {
             get { return _title; }
