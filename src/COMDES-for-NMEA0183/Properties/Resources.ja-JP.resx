@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>COMDES-for-NMEA0183</value>
+    <value>COMDES for NMEA0183</value>
   </data>
   <data name="MessageFatalError" xml:space="preserve">
     <value>致命的なエラーが発生しました。

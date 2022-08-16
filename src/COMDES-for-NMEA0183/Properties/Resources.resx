@@ -98,7 +98,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>COMDES-for-NMEA0183</value>
+    <value>COMDES for NMEA0183</value>
   </data>
   <data name="MessageFatalError" xml:space="preserve">
     <value>A fatal error has occurred.

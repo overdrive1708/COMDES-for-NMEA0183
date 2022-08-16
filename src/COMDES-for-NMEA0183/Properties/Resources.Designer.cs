@@ -61,7 +61,7 @@ namespace COMDES_for_NMEA0183.Properties {
         }
         
         /// <summary>
-        ///   COMDES-for-NMEA0183 に類似しているローカライズされた文字列を検索します。
+        ///   COMDES for NMEA0183 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string ApplicationTitle {
             get {
