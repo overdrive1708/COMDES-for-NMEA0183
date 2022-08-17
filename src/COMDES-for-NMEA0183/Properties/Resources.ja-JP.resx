@@ -134,4 +134,7 @@
   <data name="Receive" xml:space="preserve">
     <value>受信</value>
   </data>
+  <data name="ScreenTitleTransmit" xml:space="preserve">
+    <value>送信画面</value>
+  </data>
 </root>

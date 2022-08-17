@@ -114,4 +114,7 @@ Termination this application.
   <data name="Receive" xml:space="preserve">
     <value>Receive</value>
   </data>
+  <data name="ScreenTitleTransmit" xml:space="preserve">
+    <value>Transmit screen</value>
+  </data>
 </root>

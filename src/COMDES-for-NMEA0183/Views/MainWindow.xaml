@@ -34,6 +34,8 @@
             <materialDesign:ColorZone DockPanel.Dock="Top" Mode="Standard">
                 <StackPanel Orientation="Horizontal">
                     <RadioButton
+                        Command="{Binding CommandTransitionScreen}"
+                        CommandParameter="UserControlTransmit"
                         Cursor="Hand"
                         IsChecked="True"
                         Style="{StaticResource MaterialDesignTabRadioButton}">
@@ -45,7 +47,10 @@
                             <TextBlock VerticalAlignment="Center" Text="{x:Static p:Resources.Transmit}" />
                         </StackPanel>
                     </RadioButton>
-                    <RadioButton Cursor="Hand" Style="{StaticResource MaterialDesignTabRadioButton}">
+                    <RadioButton
+                        Cursor="Hand"
+                        IsEnabled="False"
+                        Style="{StaticResource MaterialDesignTabRadioButton}">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon
                                 Width="25"
@@ -59,7 +64,7 @@
             </materialDesign:ColorZone>
 
             <!--  子画面  -->
-            <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+            <ContentControl prism:RegionManager.RegionName="MainContentRegion" />
         </DockPanel>
     </Grid>
 </metro:MetroWindow>

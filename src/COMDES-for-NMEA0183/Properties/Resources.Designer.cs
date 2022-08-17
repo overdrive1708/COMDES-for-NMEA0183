@@ -99,6 +99,15 @@ namespace COMDES_for_NMEA0183.Properties {
         }
         
         /// <summary>
+        ///   Transmit screen に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ScreenTitleTransmit {
+            get {
+                return ResourceManager.GetString("ScreenTitleTransmit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Transmit に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Transmit {
