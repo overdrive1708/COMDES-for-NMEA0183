@@ -117,4 +117,10 @@ Termination this application.
   <data name="ScreenTitleTransmit" xml:space="preserve">
     <value>Transmit screen</value>
   </data>
+  <data name="NmeaSentence" xml:space="preserve">
+    <value>NMEA Sentence</value>
+  </data>
+  <data name="NmeaSentenceDetailRMC" xml:space="preserve">
+    <value>Recommended Minimum Specific GNSS Data</value>
+  </data>
 </root>

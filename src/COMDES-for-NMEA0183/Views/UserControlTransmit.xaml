@@ -12,6 +12,20 @@
     prism:ViewModelLocator.AutoWireViewModel="True"
     mc:Ignorable="d">
     <Grid Margin="10,10,10,10">
-        <TextBlock>TransmitWindow</TextBlock>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel>
+                <TextBlock Text="{x:Static p:Resources.NmeaSentence}" />
+                <ListBox
+                    ItemsSource="{Binding NmeaSentenceList}"
+                    SelectedItem="{Binding SelectedNmeaSentence.Value}"
+                    SelectionMode="Single"
+                    Style="{StaticResource MaterialDesignNavigationPrimaryListBox}">
+                    <ListBox.Resources>
+                        <Style BasedOn="{StaticResource MaterialDesignScrollBarMinimal}" TargetType="ScrollBar" />
+                    </ListBox.Resources>
+                </ListBox>
+            </StackPanel>
+            <ContentControl prism:RegionManager.RegionName="SentenceContentRegion" />
+        </StackPanel>
     </Grid>
 </UserControl>

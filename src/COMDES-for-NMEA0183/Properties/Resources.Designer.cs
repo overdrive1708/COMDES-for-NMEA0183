@@ -90,6 +90,24 @@ namespace COMDES_for_NMEA0183.Properties {
         }
         
         /// <summary>
+        ///   NMEA Sentence に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string NmeaSentence {
+            get {
+                return ResourceManager.GetString("NmeaSentence", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recommended Minimum Specific GNSS Data に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string NmeaSentenceDetailRMC {
+            get {
+                return ResourceManager.GetString("NmeaSentenceDetailRMC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Receive に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Receive {

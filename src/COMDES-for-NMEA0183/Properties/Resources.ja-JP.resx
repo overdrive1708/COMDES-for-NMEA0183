@@ -137,4 +137,10 @@
   <data name="ScreenTitleTransmit" xml:space="preserve">
     <value>送信画面</value>
   </data>
+  <data name="NmeaSentence" xml:space="preserve">
+    <value>NMEAセンテンス</value>
+  </data>
+  <data name="NmeaSentenceDetailRMC" xml:space="preserve">
+    <value>推奨最小GPSデータ</value>
+  </data>
 </root>

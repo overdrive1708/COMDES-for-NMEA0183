@@ -63,6 +63,7 @@ namespace COMDES_for_NMEA0183
         {
             // 画面遷移を行う画面を登録する
             containerRegistry.RegisterForNavigation<UserControlTransmit>();
+            containerRegistry.RegisterForNavigation<UserControlNmeaSentenceRmc>();
         }
 
         /// <summary>
