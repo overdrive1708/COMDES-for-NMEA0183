@@ -18,6 +18,7 @@
                                      IsDesignTimeCreatable=True}"
     prism:ViewModelLocator.AutoWireViewModel="True"
     TitleCharacterCasing="Normal"
+    WindowTransitionsEnabled="False"
     mc:Ignorable="d">
 
     <!--  WindowをCloseするときにDisposeする  -->
