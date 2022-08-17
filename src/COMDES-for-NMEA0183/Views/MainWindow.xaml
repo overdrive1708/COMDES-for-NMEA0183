@@ -29,39 +29,37 @@
     </bh:Interaction.Triggers>
 
     <Grid>
-        <materialDesign:Card>
-            <TabControl
-                materialDesign:ColorZoneAssist.Mode="PrimaryMid"
-                materialDesign:NavigationRailAssist.SelectionCornerRadius="50 10 10 10"
-                materialDesign:NavigationRailAssist.ShowSelectionBackground="True"
-                Style="{StaticResource MaterialDesignNavigationRailTabControl}"
-                TabStripPlacement="Top">
-                <TabItem>
-                    <TabItem.Header>
-                        <StackPanel Width="auto" Height="auto">
+        <DockPanel>
+            <!--  メニューボタン  -->
+            <materialDesign:ColorZone DockPanel.Dock="Top" Mode="Standard">
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton
+                        Cursor="Hand"
+                        IsChecked="True"
+                        Style="{StaticResource MaterialDesignTabRadioButton}">
+                        <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon
-                                Width="24"
-                                Height="24"
+                                Width="25"
+                                Height="25"
+                                Kind="SerialPort" />
+                            <TextBlock VerticalAlignment="Center" Text="{x:Static p:Resources.Transmit}" />
+                        </StackPanel>
+                    </RadioButton>
+                    <RadioButton Cursor="Hand" Style="{StaticResource MaterialDesignTabRadioButton}">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon
+                                Width="25"
+                                Height="25"
                                 HorizontalAlignment="Center"
                                 Kind="SerialPort" />
-                            <TextBlock HorizontalAlignment="Center" Text="{x:Static p:Resources.Transmit}" />
+                            <TextBlock VerticalAlignment="Center" Text="{x:Static p:Resources.Receive}" />
                         </StackPanel>
-                    </TabItem.Header>
-                </TabItem>
-                <TabItem IsEnabled="False">
-                    <TabItem.Header>
-                        <StackPanel Width="auto" Height="auto">
-                            <materialDesign:PackIcon
-                                Width="24"
-                                Height="24"
-                                HorizontalAlignment="Center"
-                                Kind="SerialPort" />
-                            <TextBlock HorizontalAlignment="Center" Text="{x:Static p:Resources.Receive}" />
-                        </StackPanel>
-                    </TabItem.Header>
-                </TabItem>
-                <TabControl prism:RegionManager.RegionName="ContentRegion" />
-            </TabControl>
-        </materialDesign:Card>
+                    </RadioButton>
+                </StackPanel>
+            </materialDesign:ColorZone>
+
+            <!--  子画面  -->
+            <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+        </DockPanel>
     </Grid>
 </metro:MetroWindow>
