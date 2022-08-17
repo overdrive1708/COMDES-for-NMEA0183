@@ -128,4 +128,10 @@
   <data name="ImportantNotice" xml:space="preserve">
     <value>重要なお知らせ</value>
   </data>
+  <data name="Transmit" xml:space="preserve">
+    <value>送信</value>
+  </data>
+  <data name="Receive" xml:space="preserve">
+    <value>受信</value>
+  </data>
 </root>

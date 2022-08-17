@@ -5,8 +5,10 @@
     xmlns:bh="http://schemas.microsoft.com/xaml/behaviors"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:l="http://schemas.livet-mvvm.net/2011/wpf"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+    xmlns:p="clr-namespace:COMDES_for_NMEA0183.Properties"
     xmlns:prism="http://prismlibrary.com/"
     xmlns:viewmodels="clr-namespace:COMDES_for_NMEA0183.ViewModels"
     Title="{Binding Title.Value, Mode=OneWay}"
@@ -26,6 +28,39 @@
     </bh:Interaction.Triggers>
 
     <Grid>
-        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+        <materialDesign:Card>
+            <TabControl
+                materialDesign:ColorZoneAssist.Mode="PrimaryMid"
+                materialDesign:NavigationRailAssist.SelectionCornerRadius="50 10 10 10"
+                materialDesign:NavigationRailAssist.ShowSelectionBackground="True"
+                Style="{StaticResource MaterialDesignNavigationRailTabControl}"
+                TabStripPlacement="Top">
+                <TabItem>
+                    <TabItem.Header>
+                        <StackPanel Width="auto" Height="auto">
+                            <materialDesign:PackIcon
+                                Width="24"
+                                Height="24"
+                                HorizontalAlignment="Center"
+                                Kind="SerialPort" />
+                            <TextBlock HorizontalAlignment="Center" Text="{x:Static p:Resources.Transmit}" />
+                        </StackPanel>
+                    </TabItem.Header>
+                </TabItem>
+                <TabItem IsEnabled="False">
+                    <TabItem.Header>
+                        <StackPanel Width="auto" Height="auto">
+                            <materialDesign:PackIcon
+                                Width="24"
+                                Height="24"
+                                HorizontalAlignment="Center"
+                                Kind="SerialPort" />
+                            <TextBlock HorizontalAlignment="Center" Text="{x:Static p:Resources.Receive}" />
+                        </StackPanel>
+                    </TabItem.Header>
+                </TabItem>
+                <TabControl prism:RegionManager.RegionName="ContentRegion" />
+            </TabControl>
+        </materialDesign:Card>
     </Grid>
 </metro:MetroWindow>

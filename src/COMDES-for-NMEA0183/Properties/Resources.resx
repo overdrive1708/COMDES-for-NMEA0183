@@ -108,4 +108,10 @@ Termination this application.
   <data name="ImportantNotice" xml:space="preserve">
     <value>Important notice</value>
   </data>
+  <data name="Transmit" xml:space="preserve">
+    <value>Transmit</value>
+  </data>
+  <data name="Receive" xml:space="preserve">
+    <value>Receive</value>
+  </data>
 </root>
